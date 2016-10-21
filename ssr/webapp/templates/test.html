@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Serverside Rendering Test</title>
+</head>
+<body>
+  {% for index in range(100000) -%}
+  <div><p>This is a test {{ index }}</p></div>
+  {%- endfor %}
+</body>
+</html>

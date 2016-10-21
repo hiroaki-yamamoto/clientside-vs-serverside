@@ -1,0 +1,17 @@
+{
+  "name": "client-side-rendering",
+  "description": "Client Side Rendering Test",
+  "main": "index.js",
+  "authors": [
+    "Hiroaki Yamamoto"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

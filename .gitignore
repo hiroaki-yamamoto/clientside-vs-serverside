@@ -1,0 +1,11 @@
+node_modules
+bower_components
+bin
+include
+lib
+lib64
+pip-selfcheck.json
+pyvenv.cfg
+__pycache__
+*.pyc
+*.pyo
