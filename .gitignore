@@ -1,5 +1,7 @@
 node_modules
 bower_components
+third_party
+asset.js
 bin
 include
 lib

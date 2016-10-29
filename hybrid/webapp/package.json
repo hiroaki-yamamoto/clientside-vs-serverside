@@ -1,0 +1,18 @@
+{
+  "name": "client-side-rendering",
+  "version": "1.0.0",
+  "description": "Client Side Rendering Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bower": "$(npm bin)/bower"
+  },
+  "author": "Hiroaki Yamamoto",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.16.0",
+    "bower": "^1.7.9"
+  }
+}
