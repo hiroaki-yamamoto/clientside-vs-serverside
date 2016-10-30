@@ -35,21 +35,33 @@ Chromium Version: 53.0.2785.143
 (And watch timeline from console.)
 2. Open `csr/index.html` from chromium (i.e. client-side rendering)
 (And watch timeline from console.)
+3. Run `hybrid` server (i.e. hybrid) and access there from chromium with
+watching timeline from console.
 
 ## Result
 ### Server Side
 [![serverside]][serverside]
 ### Client Side
 [![clientside]][clientside]
+### Hybrid
+[![hybrid]][hybrid]
 
 [serverside]: imgs/serverside.jpg
 [clientside]: imgs/clientside.jpg
+[hybrid]: imgs/hybrid.jpg
 
 ## Conclusion
 As we can see the images, server-side rendering is still much faster than
 client-side rendering. I know saying "this is definitively better than this"
 is not good, but at least on this experiment, server-side rendering seems to be
 superior to client-side rendering.
+
+And then, let's see hybrid. Comparing server-side rendering with Hybrid,
+server-side rendering is faster, but as Javascript enables webapp dynamic
+rendering, I think hybrid rendering is the middle ground. Therefore, if you
+want to make SPA (Single Page Application), I recommend you to make the page
+with server-side rendering as far as possible, and write minimum code that is
+needed for SPA.
 
 ## For PRs
 If you have a confidence that you can re-write client-side code to be faster
